@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#fff, #506690);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+section {
+    max-width: 1200px;
+    width: 95%;
+    height: auto;
+    background-color: #fafbfb;
+    border-radius: 5%;
+    padding: 40px;
+}
+
+h1, a, h3, p, button {
+    font-family: Inter;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+h1 {
+    color: #335eea;
+}
+
+h1:hover{
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #506690;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gauche {
+    flex: 1;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.dm {
+    color: #335eea;
+}
+
+p {
+    color: #506690;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.boutons {
+
+}
+
+button {
+    background-color: #335eea;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-color: #335eea;
+    border-radius: 7px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.b2 {
+    background-color: #d7ddf1;
+    color: #335eea;
+    border-color: #d7ddf1;
+}
+
+.droite {
+    flex: 1;
+}
+
+img {
+    max-width: 600px;
+    width: 95%;
+}
+
